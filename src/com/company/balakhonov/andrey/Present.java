@@ -33,7 +33,10 @@ public class Present implements PresentBox {
 
     @Override
     public void deleteLast() {
-        sweetBox = Arrays.copyOf(sweetBox, sweetBox.length - 1);
+        if (sweetBox.length == 0) {
+            System.out.println("Массив пуст.");
+        } else
+            sweetBox = Arrays.copyOf(sweetBox, sweetBox.length - 1);
     }
 
     @Override

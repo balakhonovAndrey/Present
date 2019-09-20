@@ -38,8 +38,10 @@ public class Main {
         System.out.println("============================");
 
         present.deleteByIndex(3);
-        present.deleteLast();
 
+        for (int i = 0; i < 20 ; i++) {
+            present.deleteLast();
+        }
 
         System.out.println("============================");
 

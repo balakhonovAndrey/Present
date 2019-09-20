@@ -7,6 +7,4 @@ public interface PresentBox {
     public double getWeight();
     public double getCost();
     public void getInfo();
-//    public void reduceWeight(double value);
-//    public void reduceCost(double value);
 }

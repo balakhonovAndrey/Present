@@ -12,36 +12,6 @@ public class Milka extends Sweetness {
         this.expirationDate = expirationDate;
     }
 
-    @Override
-    public String getTitle() {
-        return super.getTitle();
-    }
-
-    @Override
-    public void setTitle(String title) {
-        super.setTitle(title);
-    }
-
-    @Override
-    public double getWeight() {
-        return super.getWeight();
-    }
-
-    @Override
-    public void setWeight(double weight) {
-        super.setWeight(weight);
-    }
-
-    @Override
-    public double getCost() {
-        return super.getCost();
-    }
-
-    @Override
-    public void setCost(double cost) {
-        super.setCost(cost);
-    }
-
     public String getExpirationDate() {
         return expirationDate;
     }
